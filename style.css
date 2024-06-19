@@ -90,14 +90,24 @@ body {
 .btn_link_1 a,
 .btn_link_2 a,
 .btn_link_3 a,
-.btn_link_4 a,
-.btn_link_5 a {
+.btn_link_4 a {
   padding: 1.1rem 1.5rem;
   color: #00a2f7;
   background-color: transparent;
   border: 1px solid #00a2f7;
   border-radius: 50px;
   margin-right: 1.5rem;
+  transition: .2s ease-in-out;
+  font-size: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn_link_5 a {
+  padding: 1.1rem 1.5rem;
+  color: #00a2f7;
+  background-color: transparent;
+  border: 1px solid #00a2f7;
+  border-radius: 50px;
   transition: .2s ease-in-out;
   font-size: 1.5rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
